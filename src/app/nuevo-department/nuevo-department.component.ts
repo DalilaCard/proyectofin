@@ -5,6 +5,7 @@ import { DepartmentsServiceService } from '../services/departments-service.servi
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-nuevo-departamento',
   imports: [HeaderComponent, FormsModule],
@@ -61,7 +62,7 @@ export class NuevoDepartmentComponent {
     console.log('Usuario', this.user);
     const department = {
       departmentName: this.departmentName_department,
-      user: this.user
+      user: this.user//aqui 
     };
 
     // Llamamos al servicio para crear el departamento

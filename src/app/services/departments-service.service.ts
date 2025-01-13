@@ -11,7 +11,7 @@ import { Department, Departments } from '../data/departments';
 export class DepartmentsServiceService {
 
 
-  urlApi = "https://proyectof-gweu.onrender.com/api/v1/departments"
+  urlApi = "https://pfinalp.onrender.com/api/v1/departments"
   private username = "admin"; // Reemplaza con tu usuario
   private password = "admin1234"; // Reemplaza con tu contraseña
 
